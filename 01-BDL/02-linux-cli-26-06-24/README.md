@@ -2,11 +2,44 @@
 
 - Trying and showing the linux system
 
-- What is Terminal ?
+- Was is Terminal ?
+
+- es heißt auch konsole, es ist ein Endgerät yur Eingabe und Anzeigen von Daten
 
 - Linux filesstem ?
 
+- In Linux gibt es keine solchen Laufwerke Z.B C: , D:
+- Dateien und Ordner (in Linux meist Verzeichnisse genannt) existieren in einer Hierarchie
+- Alles beginnt vom Root-Verzeichnis, `/`
+- Jede Datei und jeder Ordner hat einen einzigartigen Pfad
+
 - Terminal commands ?
+
+````sh
+   $ pwd -> schreibt den vollständigen Pfadnamen Ihres aktuellen Verzeichnisses
+
+   $ ls -> schreibt den Inhalt jedes angegebenen Verzeichnisses oder jeder angegebenen Datei zusammen mit allen anderen Informationen
+
+   $ mkdir projects -> erstellt ein oder mehrere neue Verzeichnisse, die mit dem Parameter Verzeichnis angegeben werden
+
+   $ cd projects ->  steht für change directory
+
+   $ cd .. change directory zur höhre ebene
+
+   $ ls -a ist hier die Option für versteckte Datein oder ordnen
+
+   $ ls -l ist hier die Option für mehr Details
+
+   $ touch file.txt ein Datei erstellen.
+
+   $ rm -r mywebsite ein Ordnen löschen
+
+   $ rm file.txt Datei löschen
+
+   $ cd ~ change directory zum Home Ordnen
+
+   ```
+
 
 ## Resources :
 
@@ -33,3 +66,4 @@
 
 - 3. Stelle einen 15-minütigen Timer für dich selbst
 - - Recherchiere online "Unterschied zwischen Mac, Unix und Linux"
+````
