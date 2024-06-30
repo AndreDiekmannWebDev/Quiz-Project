@@ -4,6 +4,10 @@
 
 1. `Anatomie von URLs`
 
+- ![Anfrage und Antwort](./assets/request-response-cycle.png)
+
+- ![URL-Komponenten](./assets/url.png)
+
 2. `HTTP, HTTPS`
 
 3. `IP-Adressen`
