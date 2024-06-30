@@ -1,4 +1,4 @@
-# - Linux-Berechtigungen Mittwoch 27-06-24
+# Linux-Berechtigungen Mittwoch 27-06-24
 
 - Was bedeutet Berechtigung ?
 
