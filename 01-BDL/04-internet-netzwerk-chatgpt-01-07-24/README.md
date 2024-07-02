@@ -8,7 +8,7 @@
 
 - Viele Kommunikationen über das Internet verwenden URLs
 
-eine Webadresse in deinen Browser eingibst?
+- eine Webadresse in deinen Browser eingibst?
 
 - Dein Browser sendet eine GET-Anfrage
 

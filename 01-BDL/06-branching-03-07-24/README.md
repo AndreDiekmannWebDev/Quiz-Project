@@ -8,11 +8,11 @@
 
 ## Resources :
 
-- []
+- [Advanced git log](https://www.atlassian.com/git/tutorials/git-log)
 
-- []
+- [git branching](https://www.atlassian.com/git/tutorials/using-branches)
 
-- []
+- [Git game lerning](https://ohmygit.org/)
 
 ## Übungen
 
