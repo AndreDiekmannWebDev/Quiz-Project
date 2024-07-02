@@ -112,7 +112,6 @@
     $ git status
     $ git add . -> alle Datein und Ordnen staging
     $ git commit -m "Add pancake recipe" -> nachricht beschreibt was gemacht worde
-    $
 ```
 
 ## Resources :
