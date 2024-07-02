@@ -77,6 +77,7 @@ eine Webadresse in deinen Browser eingibst?
   - Domain Name System
 
   - Eine Domain ist eine menschenlesbare und leichter zu merkende Webadresse
+
   - Anstatt http://172.217.16.78
   - Kannst du http://google.com machen
 
