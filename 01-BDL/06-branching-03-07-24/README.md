@@ -2,9 +2,53 @@
 
 - Lernen Ziele :
 
-1. Durch die Git-Historie navigieren
+1. Durch die Git-Historie navigieren:
+
+- Wenn wir haben normalerweise mehrere Commits
+
+```sh
+$ git log --oneline -> Zeige log
+$ merged process branch
+$ rf34543 Edited user file
+$ 12er4f5 Project started
+
+$ git checkout rf34543 -> wechsel zu älterem commit
+
+$ git checkout main -> zurück zu dem, wo wor waren
+```
 
 2. Branching (Verzweigen) und mergen (zusammenführen)
+
+- `git checkout -b <name-of-branch>`
+
+  - Es gibt verschiedene Möglichkeiten, einen Branch zu erstellen
+  - Dies ist das, was wir empfehlen
+  - HINWEIS
+
+    - Achte darauf, auf welchem Branch du dich gerade befindest
+    - Der neue Branch wird vom aktuellen Branch erstellt
+
+- `git checkout <branch>`
+
+  - Es gibt verschiedene Möglichkeiten, zu wechseln, auf welchem Branch du dich befindest
+
+- `git branch -a`
+
+  - Listet alle Branches auf
+
+- `git branch -m <name>`
+
+  - Benennt den aktuellen Branch um
+
+- `git merge <target>`
+
+  - Führt den Zielbranch in den aktuellen ein
+
+- Wichtiger Hinweis zu Branches
+  - Zwei Branches können Änderungen an derselben Datei enthalten
+  - Beim Zusammenführen kann dies einen "Konflikt" verursachen
+  - Konflikte müssen gelöst werden, um den Merge abzuschließen
+  - Konflikte können komplex sein
 
 ## Resources :
 
