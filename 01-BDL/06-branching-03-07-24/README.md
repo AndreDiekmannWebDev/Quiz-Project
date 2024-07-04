@@ -8,7 +8,7 @@
 
 ```sh
 $ git log --oneline -> Zeige log
-$ merged process branch
+$ 123gh45v merged process branch
 $ rf34543 Edited user file
 $ 12er4f5 Project started
 
