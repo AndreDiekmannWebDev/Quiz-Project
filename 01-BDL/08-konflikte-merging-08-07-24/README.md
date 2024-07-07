@@ -1,4 +1,4 @@
-# Merging und Konflikte / Montag 08.07.24
+# Merging und Konflikte / Montag 08.07.2024
 
 - lernen Ziele :
 
