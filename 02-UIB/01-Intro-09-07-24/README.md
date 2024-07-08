@@ -20,6 +20,8 @@
 
 - [Copilot chat erklärt](https://code.visualstudio.com/docs/copilot/getting-started-chat)
 
+- [Html cheat sheet](./assets/htmlcheatsheet.pdf)
+
 ## Tasks :
 
 1. []()
