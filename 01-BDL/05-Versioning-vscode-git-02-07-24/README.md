@@ -121,3 +121,5 @@
 - [Git und Github Tutorials](https://youtube.com/playlist?list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&si=Qc9unVtr063t4_Bp)
 
 - [Beste 20 Extensions VScode](https://x-team.com/blog/best-vscode-extensions)
+
+- [git cheat sheet](./assets/git-cheat-sheet-education.pdf)
