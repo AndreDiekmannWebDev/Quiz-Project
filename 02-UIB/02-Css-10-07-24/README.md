@@ -12,7 +12,7 @@
 
 - [css cheat sheet](https://cheatsheets.shecodes.io/css)
 
-- [Classes uns IDs selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+- [Classes und IDs selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
 
 ### Tasks :
 
