@@ -4,11 +4,47 @@
 
 1. HTML Introduction
 
+- HTML definiert die Struktur unserer Webseiten
+
+- `WHATWG` : Web Hypertext Application Technology Working Group
+
+- HTML wird ständig von WHATWG aktualisiert
+
+- Dein Browser versteht HTML-Dokumente
+  - Er parst (interpretiert, versucht zu verstehen) das HTML
+  - Browser sind fehlertolerant, sie erholen sich von kleinen Fehlern in HTML
+  - Der Browser rendert (zeichnet) dann die Seite
+
 2. Basic HTML boilerplate
 
-3. Clean Code
+- [Erklärung in befindet sich im Projekt](./html-basic-project/index.html)
+
+3. Clean Code:
+
+<!-- Unordentlicher Code -->
+
+```html
+<body>
+  <h1>Hallo</h1>
+  <p>Hier ist Fehler</p>
+</body>
+```
+
+<!-- Sauberer Code -->
+
+```html
+<body>
+  <h1>Hi</h1>
+  <p>Hier ist Super Code</p>
+</body>
+```
+
+- `KISS` : keep it simple und stupid.
+- `DRY` : Dont repeat your self.
 
 4. VScode Extentions and Shortcuts (Abkürzungs)
+
+> siehe Resources
 
 5. Copilot, Copilot chat
 
@@ -24,8 +60,8 @@
 
 ## Tasks :
 
-1. []()
+1. [uib-fundamentals-basic-structure](https://classroom.github.com/a/6XCnvr71)
 
-2. []()
+2. [uib-fundamentals-meta](https://classroom.github.com/a/GyXjlrP4)
 
-3. []()
+3. [uib-fundamentals-wikipedia](https://classroom.github.com/a/6tGvKHKF)
