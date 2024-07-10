@@ -24,8 +24,7 @@
 <!-- Unordentlicher Code -->
 
 ```html
-<body>
-  <h1>Hallo</h1>
+<body>Hallo</h1>
   <p>Hier ist Fehler</p>
 </body>
 ```

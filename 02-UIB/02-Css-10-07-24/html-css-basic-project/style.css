@@ -1,0 +1,42 @@
+/* External style */
+body {
+  background-color: darkgrey;
+}
+
+p {
+  background-color: black;
+  color: blue;
+}
+
+#first-list {
+  background-color: rgb(209, 173, 29);
+  color: chocolate;
+}
+/* #first-list {
+  background-color: violet;
+} */
+
+.new-color {
+  background-color: cornflowerblue;
+  color: darkgreen;
+  list-style-type: upper-roman;
+}
+.class-id-test {
+  background-color: darkmagenta;
+}
+.lion {
+  background-color: blueviolet;
+}
+/* li {
+  background-color: white;
+} */
+ol li {
+  background-color: white;
+}
+ul {
+  color: blue;
+  list-style-type: none;
+}
+.class-id-test > li {
+  color: white;
+}
