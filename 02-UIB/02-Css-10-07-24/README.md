@@ -2,9 +2,9 @@
 
 - Lernziele:
 
-1. Was ist Style css grundlagen ?
+1. Was ist Style CSS grundlagen ?
 
-2. Listen
+2. Listen (lists)
 
 3. classes and IDs
 
@@ -14,10 +14,10 @@
 
 - [Classes und IDs selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
 
+- [CSS MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 ### Tasks :
 
-1. []()
+1. [uib-fundamentals-recipe-for-a-list](https://classroom.github.com/a/eDMAMttq)
 
-2. []()
-
-3. []()
+2. [uib-fundamentals-classes-and-ids](https://classroom.github.com/a/feKtBhlc)
