@@ -22,8 +22,8 @@
 
 ### Tasks :
 
-- []()
+- [uib-fundamentals-linking](https://classroom.github.com/a/6bNE0bBa)
 
-- []()
+- [uib-fundamentals-toc](https://classroom.github.com/a/pez6bz-8)
 
-- []()
+- [uib-fundamentals-the-sweet-spot](https://classroom.github.com/a/X1NUiq8Z)
