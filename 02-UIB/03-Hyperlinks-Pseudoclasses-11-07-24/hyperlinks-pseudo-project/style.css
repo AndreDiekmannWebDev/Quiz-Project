@@ -1,3 +1,52 @@
 body {
   background-color: gray;
 }
+/* Zwei Elemente selektieren */
+/* h1,
+h2 {
+  color: rgb(60, 93, 93);
+} */
+
+/* Universal selctor */
+/* * {
+  color: cornflowerblue;
+} */
+/* class selector startet with . */
+.big-paragraph {
+  color: cornflowerblue;
+}
+
+/* id selector startet with # */
+#first-section {
+  background-color: rgb(78, 76, 76);
+}
+a {
+  color: darkslategray;
+}
+/* beachte die reihn folge vom Code */
+/* Hex farbe: 0 -> 9, a -> f */
+/* 99 rot, 00 green, ff blue */
+/* active is showing color when the link was clicked */
+a:active {
+  color: rgb(102, 126, 86);
+}
+/* giving the link color after visiting */
+a:visited {
+  color: darkkhaki;
+}
+/* to focus on the link  */
+a:focus {
+  color: aquamarine;
+}
+/* when with curser staying on the link  */
+a:hover {
+  color: lightpink;
+}
+/* rgba, a ist alpha */
+h2:hover {
+  color: rgba(131, 17, 17, 0.424);
+}
+
+ul:hover {
+  background-color: lightblue;
+}
