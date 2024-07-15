@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+  /* width: 1024px; */
+}
+section {
+  background-color: rgb(243, 160, 160);
+  width: 300px;
+  /* height: 400px; */
+  /* overflow: scroll; */
+  overflow: hidden;
+  /* overflow: auto; */
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(122, 119, 119);
+}
+h1 {
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: rgb(7, 7, 7); */
+  border: 3px dotted black; /* Abkürzung */
+}
+.images-section {
+  width: 70%;
+  /* width: 400px; */
+}
+#tree-photo {
+  width: 50%;
+  /* width: 50vw; */
+  /* height: 50vh; */
+}
+.first-container {
+  border: 5px solid red;
+}
+.first-container div {
+  border: 5px solid green;
+}
+.first-container div div {
+  border: 5px solid blue;
+}
+
+.first-container div div h3 {
+  border: 5px solid rgb(224, 17, 186);
+}

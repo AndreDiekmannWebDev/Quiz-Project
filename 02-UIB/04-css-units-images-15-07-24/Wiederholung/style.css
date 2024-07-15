@@ -1,0 +1,16 @@
+#google-section {
+  color: darkgreen;
+}
+
+a:visited {
+  color: red;
+}
+.dci-section a:hover {
+  color: chocolate;
+}
+a:hover {
+  color: chartreuse;
+}
+a:active {
+  color: darkmagenta;
+}

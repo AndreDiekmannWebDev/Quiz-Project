@@ -22,8 +22,6 @@
 
 ### Tasks :
 
-1. []()
+1. [uib-fundamentals-css-units](https://classroom.github.com/a/wgdFcWAK)
 
-2. []()
-
-3. []()
+2. [uib-fundamentals-build-a-blog](https://classroom.github.com/a/9PvaUbvC)
