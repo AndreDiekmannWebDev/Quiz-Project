@@ -1,5 +1,6 @@
 body {
   background-color: lightgray;
+  color: pink;
 }
 
 .new-text {
@@ -43,7 +44,12 @@ li {
   background-color: aqua;
   /* width: 100%; */
   border: inherit;
+  /* border: 1px solid rgb(151, 35, 174); */
   color: initial;
   /* all: unset; */
 }
 /* cascading : inline style -> internel style -> externel -> ID -> class -> element Tag  */
+ol {
+  border: 1px solid red;
+  color: darkred;
+}
