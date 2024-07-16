@@ -20,6 +20,6 @@
 
 ### Tasks :
 
-- []()
+- [uib-fundamentals-accessibility](https://classroom.github.com/a/jKpslnaA)
 
-- []()
+- [uib-fundamentals-css-cascade](https://classroom.github.com/a/st7BIqPz)

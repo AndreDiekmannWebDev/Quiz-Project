@@ -1,0 +1,49 @@
+body {
+  background-color: lightgray;
+}
+
+.new-text {
+  background-color: rgb(26, 160, 244);
+}
+
+#lorem-text {
+  background-color: rgb(254, 114, 59);
+}
+section {
+  background-color: blueviolet;
+}
+#test-para {
+  color: rgb(2, 2, 155);
+}
+#loren-text p {
+  color: darkgreen;
+}
+#lorem-text #test-para {
+  color: red;
+}
+
+.new-text .lists {
+  /*(0,2,0)*/
+  color: blue;
+}
+/* section ul .first-list {
+  color: darkmagenta;
+} */
+/* section .lists { (0,1,1)
+  color: darkmagenta;
+} */
+
+#lorem-text .lists {
+  color: rgb(9, 127, 5);
+  border: 1px solid rgb(151, 35, 174);
+  width: 300px;
+  /* font-size: 10px; */
+}
+li {
+  background-color: aqua;
+  /* width: 100%; */
+  border: inherit;
+  color: initial;
+  /* all: unset; */
+}
+/* cascading : inline style -> internel style -> externel -> ID -> class -> element Tag  */
