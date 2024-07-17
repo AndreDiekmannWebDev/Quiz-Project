@@ -1,0 +1,19 @@
+/* *,
+body {
+  color: greenyellow;
+}
+p,
+header div,
+h2 {
+  color: palegoldenrod;
+} */
+*,
+html body,
+main button {
+  color: greenyellow;
+}
+p,
+header div,
+h2 {
+  color: palegoldenrod;
+}
