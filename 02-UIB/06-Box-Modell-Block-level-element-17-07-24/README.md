@@ -20,6 +20,6 @@
 
 ### Tasks :
 
-- []()
+- [uib-boxes-eula](https://classroom.github.com/a/SYEhXUMw)
 
-- []()
+- [uib-boxes-containers-ahoy](https://classroom.github.com/a/g8JjZYHn)
