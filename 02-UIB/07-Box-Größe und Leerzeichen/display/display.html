@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="display.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>CSS Display Demo</h1>
+  <h2>Block Elemente</h2>
+  <p class="p1">Guten Tag! Ich bin ein Block-Element</p>
+  <p class="p2">Guten Tag! Ich bin auch ein Block-Element</p>
+  <p class="p3">Ich bin der dritte Absatz und kommt unter dem zweiten</p>
+
+  <h2>Inline-Element</h2>
+  <div>
+    <span>inline und so breit wie der Inhalt</span>
+  </div>
+  <span>Ich bin ein Inline-Element! Auch wenn ihr mir width oder height im CSS gebt, werden sie ignoriert</span>
+  <span>Ich bin ein zweites Inline-Element und komme neben dem ersten</span>
+  <h2>Inline-Element in einem Text drin</h2>
+  <div class="em-parent">Das Wort <em>"markiert!"</em> wird mit em-Element gewrappt und betont.</div>
+
+  <h2>Inline-Block-Elemente</h2>
+  <div class="inline-block">Ich bin ein inline-block. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+    veritatis ut ipsa, repudiandae optio culpa beatae velit nostrum facilis explicabo!</div>
+  <div class="inline-block">Ich bin auch ein inline-block. Lorem ipsum dolor sit amet consectetur adipisicing elit. <a
+      href="#">Maiores</a> veritatis ut ipsa, repudiandae optio culpa beatae velit nostrum facilis explicabo!</div>
+  <h2>Bilder sind inline und verhalten sich wie inline-block</h2>
+  <!-- img ist standardmäßig inline-Element, das sich aber wie ein inline-block-Element verhält -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Brooks_Chase_Ranger_of_Jolly_Dogs_Jack_Russell.jpg"
+    width="800" height="600" alt="Ein Jack Russell Hund aus Wikipedia">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Brooks_Chase_Ranger_of_Jolly_Dogs_Jack_Russell.jpg"
+    width="800" height="600" alt="Ein Jack Russell Hund aus Wikipedia">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Brooks_Chase_Ranger_of_Jolly_Dogs_Jack_Russell.jpg"
+    width="800" height="600" alt="Ein Jack Russell Hund aus Wikipedia">
+    <h2>Bild und Container und Border</h2>
+    <div class="img-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chin_posing.jpg" alt="Ein anderer cooler Hund. Schwarzweiß. Aus wikipedia" width="2737" height="2809" >
+    </div>
+  </body>
+
+</html>

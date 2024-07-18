@@ -1,0 +1,92 @@
+html {
+    font-size: 2rem;
+  }
+  
+  /* 
+  - Man kann einem Block-Element width, height, padding und margin geben.
+  - Block-Element sorgt für Umbruch. Das nächste Element kommt drunter, nicht daneben.
+  - Standardmäßig nehmen Block-Elemente die gesamte verfügbare Breite ein
+  - Die Höhe der Block-Elemente passen sich hingegen am Inhalt an
+  */
+  
+  p {
+    border: 2px solid blue;
+  }
+  
+  .p2 {
+    height: 200px;
+  }
+  
+  .p2,
+  .p3 {
+    width: 30%;
+  }
+  
+  /* 
+  width und height Eigenschaften werden bei inline-Elementen ignoriert
+  */
+  span {
+    /* display: block; */
+    border: 2px solid orange;
+    /* width: 300px;
+    height: 1000px; */
+  }
+  
+  .em-parent {
+    border: 2px solid green;
+    margin-top: 10px;
+  }
+  
+  em {
+    /* Ich kann mit display dieses Element zu einem Block-Element machen */
+    /* display: block; */
+    color: red;
+    /* Man kann Inline-Elementen padding-left und padding-right geben */
+    /* Wenn man Inline-Elementen padding-top und padding-bottom gibt, nehmen sie keinen Platz ein. Aber man sieht sie, wenn es Border gibt
+    In der Praxis wird padding selten bei inline-Elementen benutzt*/
+    padding-left: 1rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 4px solid pink;
+    /*
+    - Man kann Inline-Elementen margin-left und margin-right geben. margin-top und margin-bottom werden hingegen ignoriert
+    - margin-left und margin-right werden in der Praxis öfter benutzt.
+    */
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* 
+  inline-block-elemente können width und height haben wie Block-Elemente. Sie verursachen keinen Umbruch und können nebeneinander stehen
+  */
+  .inline-block {
+    display: inline-block;
+    border: 2px solid green;
+    width: 40%;
+    padding: 1rem;
+  }
+  
+  img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .img-container {
+    border: 8px solid black;
+    width: 300px;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    /* 
+    img ist standardmäßig ein inline-Element. Für inline-Elemente wird Platz für "Unterlänge" (englisch descender height) reserviert. Das ist der Platz nach unten für Buchstaben wie "g", "y", "p" usw. Dadurch entsteht hier ein Extraplatz zwischen dem Bild und dem Border von Container.
+    */
+    /* 
+    Es gibt mehrere Möglichkeiten, das Problem zu lösen. Eine davon ist es, das Bild zu einem Block-Element zu machen
+    */
+    /* display: block; */
+  }

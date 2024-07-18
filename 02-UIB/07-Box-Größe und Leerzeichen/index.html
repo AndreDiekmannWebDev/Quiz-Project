@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Box Model Demo</h1>
+  <div class="beispiel-1">Ich bin ein Textinhalt. Und es gibt Padding zwischen mir und dem Rand</div>
+  <div class="beispiel-2-1">
+    <div class="beispiel-2-2">
+      Ich bin ein Kindelement. Das Elternelement hat ein Padding, das ist der Abstand zwischen mir und dem Rand des Elternelements (aqua).
+    </div>
+  </div>
+  <div class="beispiel-3">Ich habe zu allen Seiten 10px Margin. Das sind Abstand zu anderen Elementen</div>
+  <h2>Margin Collapse Beispiele</h2>
+  <div class="beispiel-4-1">
+    Ich habe margin-bottom 25px
+  </div>
+  <div class="beispiel-4-2">
+    Ich habe margin-top 25px. Durch margin-collapse gibt es nur 25px margin zwischen uns, nicht 50px.
+  </div>
+  <div class="beispiel-5-1">
+    Ich habe margin-bottom 20px
+  </div>
+  <div class="beispiel-5-2">
+    Ich habe margin-top 50px. Durch margin-collapse gibt es nur 50px margin zwischen uns, nicht 70px.
+  </div>
+  <div class="beispiel-6-1">
+    <div class="beispiel-6-2">
+      Ich bin ein Kindelement mit margin-top 20px. Da mein Elternelement weder Border noch Padding hat, rutscht mein margin-top raus und wird zum margin-top vom Elternelement
+    </div>
+  </div>
+  <div class="beispiel-7-1">
+    <div class="beispiel-7-2">
+      <p>Ich bin ein Kindelement mit margin-top 20px. Da mein Elternelement Border hat, gibt es jetzt nach oben 20px Abstand zwischen mir und Border vom Elternelement.</p>
+      <p>Best Practice in dieser Situation: Diesen Abstand mit Padding vom Elternelement definieren und nicht mit Margin vom Kind</p>
+    </div>
+  </div>
+</body>
+</html>

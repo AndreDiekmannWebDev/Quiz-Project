@@ -1,0 +1,11 @@
+main {
+    /* funktioniert nur bei display: block */
+    /* display: inline-block; */
+    width: 70%;
+    /* text-align: center; */
+    /* Wenn es horizontal noch freien Platz gibt, kann man einem Element margin nach links und rechts auto geben, dann wird es zentriert */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* shorthand. top und unten haben hier 0 margin bekommen */
+    margin: 0 auto;
+  }

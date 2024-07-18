@@ -1,0 +1,92 @@
+div {
+  border: 2px solid blue;
+}
+
+/* 
+Padding ist der Abstand zwischen Inhalt und Border/Rand
+*/
+/* 
+padding ist eigentlich ein Shorthand/Kurzschreibweise für vier Eigenschaften: padding-left, padding-right, padding-top, padding-bottom
+*/
+.beispiel-1 {
+  /* padding: 10px; */
+  /* Wenn ich bei padding 4 Werte angebe, dann sind sie top right bottom left */
+  /* padding: 5px 10px 20px 2px; */
+  /* Bei 2 Werten sind sie oben+unten, links+rechts */
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.beispiel-2-1 {
+  background-color: aqua;
+  padding: 10px;
+}
+
+.beispiel-2-2 {
+  background-color: blueviolet;
+  color: white;
+}
+
+.beispiel-3 {
+  height: 50px;
+  /* 
+Margin ist der Abstand vom Rand/Border zu anderen Elementen
+*/
+  /* 
+Margin ist eigentlich ein Shorthand/Kurzschreibweise für vier Eigenschaften: margin-left, margin-right, margin-top, margin-bottom
+*/
+  margin: 10px;
+  /* margin: 4px 15px 10px 20px;
+  margin: 10px 20px; */
+}
+
+/* Margin-Collapse Beispiel 1 zwischen zwei angrenzenden Elementen */
+.beispiel-4-1 {
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.beispiel-4-2 {
+  height: 50px;
+  margin-top: 25px;
+}
+
+/* Margin-Collapse Beispiel 2 zwischen zwei angrenzenden Elementen */
+.beispiel-5-1 {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.beispiel-5-2 {
+  height: 50px;
+  margin-top: 50px;
+}
+
+/* Margin-Collapse Beispiel 2 mit Eltern- und Kindelement. Das passiert, wenn das Elternelement kein Border und Padding hat und das Kindelement Margin */
+.beispiel-6-1 {
+  border: none;
+  background-color: cadetblue;
+  height: 300px;
+}
+
+.beispiel-6-2 {
+  width: 75%;
+  height: 50%;
+  background-color: beige;
+  margin-top: 20px;
+}
+/* Gegenbeispiel. Wenn das Elternelement Border hat */
+.beispiel-7-1 {
+  /* border: none; */
+  background-color: cadetblue;
+  height: 300px;
+}
+
+.beispiel-7-2 {
+  width: 75%;
+  height: 50%;
+  background-color: beige;
+  margin-top: 20px;
+}
+
+/* Best Practice: Wenn es darum geht, Abstand vom Rand des Elternelements zu seinem Kind / zu seinen Kindern einzufügen, gib dem Eltern Padding und nicht dem Kind Margin */
