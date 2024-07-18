@@ -1,0 +1,35 @@
+/* 
+1. Wir legen die Breite des Elements fest
+2. box-sizing hat den Wert content-box (das ist der Standardwert)
+3. das Element hat auch width und padding
+-> border und padding kommen zusätzlich zur angegebenen width hinzu und macht das Element zu breit
+*/
+
+.problem {
+    box-sizing: content-box;
+    border: 8px solid red;
+    padding: 10px;
+    width: 100%;
+    /* auch 100vw hat das gleiche Problem */
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Mit box-sizing: border-box gilt die width für das gesamte Element inklusive padding und border. Das Element wird somit nicht zu groß
+  */
+  .loesung-1 {
+    box-sizing: border-box;
+    border: 8px solid red;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+  Noch besser: Damit das Blockelement die gesamte verfügbare Breite einnimmt, müssen wir gar keine width angeben. Dann gibt es auch kein Problem.
+  */
+  .bessere-loesung {
+    border: 8px solid red;
+    padding: 10px;
+    /* width: 100%; */
+  }

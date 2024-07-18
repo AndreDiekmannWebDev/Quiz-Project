@@ -1,0 +1,24 @@
+div {
+    width: 500px;
+    height: 100px;
+    font-size: 2rem;
+    margin: 10px 0;
+    padding: 10px;
+    border: 10px solid orange;
+  }
+  
+  /* 
+  Bei box-sizing: content-box gilt die angegebene width und height für den content/Inhalt. padding und border kommen zusätzlich hinzu.
+  Wenn es also mehr padding/border gibt, wird das Element insgesamt größer. width und height von content bleibt gleich.
+  content-box ist der Standardwert.
+  */
+  .content-box {
+    box-sizing: content-box;
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .border-box {
+    box-sizing: border-box;
+    background-color: chartreuse;
+  }
