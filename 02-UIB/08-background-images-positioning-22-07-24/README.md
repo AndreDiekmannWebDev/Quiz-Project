@@ -18,6 +18,6 @@
 
 ## Tasks :
 
-- []()
+- [uib-boxes-images-and-gradients](https://classroom.github.com/a/w5HWrg6C)
 
-- []()
+- [uib-boxes-header-and-footer](https://classroom.github.com/a/H0kt9c5M)
