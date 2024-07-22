@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  text-align: center;
+  color: lightseagreen;
+}
+/* img {
+  width: 250px;
+} */
+.box {
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 40vw;
+  height: 20vh;
+  margin: 10px auto;
+  /* background-size: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center/center;
+}
+.box:nth-of-type(odd) {
+  background-image: url(./assets/cat.jpeg);
+}
+.box:nth-of-type(even) {
+  background-image: url(./assets/dog-animal_DOTORLBDD7.jpg);
+}
+.box:nth-of-type(3) {
+  background: url(./assets/dragonfly.jpg) center/cover no-repeat;
+}
