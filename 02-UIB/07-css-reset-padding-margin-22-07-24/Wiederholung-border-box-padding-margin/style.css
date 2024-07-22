@@ -2,16 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+} */ /* Reset me softly*/
 h1 {
   background-color: lightblue;
   margin-top: 10px;
   margin-right: 50px;
   border: 5px solid red;
-  /* padding: 5px 4px 6px 8px; */
-  /* padding: 5px 8px; */
+  /* padding: 5px 4px 6px 8px; */ /* padding: top right bottom left */
+  /* padding: 5px 8px; */ /* padding : top and bottom  right and left */
   padding: 5px;
-  width: 500px; /* 500 + 10 padding + 10 border*/
+  width: 500px; /* 500 + 10 padding + 10 border -> ohne box sizing border box*/
   /* outline: 5px solid green; */
   /* box-sizing: border-box; */
 }
@@ -20,7 +20,7 @@ span,
 input {
   display: inline-block;
   /* width: auto; */
-  width: 50%;
+  width: 50%; /* width hier wird funktionieren, weil display inlineblock*/
   /* box-sizing: border-box; */
 }
 span {
