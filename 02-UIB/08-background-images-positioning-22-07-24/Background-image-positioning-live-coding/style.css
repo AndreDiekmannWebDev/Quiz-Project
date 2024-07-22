@@ -5,6 +5,9 @@
 }
 body {
   background-color: lightgray;
+  /* height: 100%; */
+  /* height: 100px; */
+  position: relative;
 }
 h1 {
   text-align: center;
@@ -23,8 +26,9 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center/center;
+  text-align: center;
 }
-.box:nth-of-type(odd) {
+/* .box:nth-of-type(odd) {
   background-image: url(./assets/cat.jpeg);
 }
 .box:nth-of-type(even) {
@@ -32,4 +36,50 @@ h1 {
 }
 .box:nth-of-type(3) {
   background: url(./assets/dragonfly.jpg) center/cover no-repeat;
+} */
+
+/* Positioning */
+
+.box1 {
+  background-color: lightcoral;
+  position: static;
+  top: 10px;
+  left: 50px;
+  z-index: 999;
+}
+.box2 {
+  background-color: lightblue;
+  position: relative;
+  /* top: 10px;
+  left: 50px; */
+  right: 50px;
+  bottom: 100px;
+  z-index: -1;
+}
+.box3 {
+  background-color: lightgreen;
+  border: 5px solid red;
+  position: absolute;
+  /* right: 50%; */
+  bottom: 0px;
+  /* top: 0px; */
+}
+
+.box4 {
+  background-color: lightseagreen;
+  position: fixed;
+  /* top: 0px; */
+  top: 0px;
+  right: 0px;
+}
+
+.box5 {
+  background-color: lightslategray;
+  position: sticky;
+  top: 0px;
+}
+.last-sec {
+  border: 1px solid red;
+  height: 500px;
+  /* position: relative; */
 }
