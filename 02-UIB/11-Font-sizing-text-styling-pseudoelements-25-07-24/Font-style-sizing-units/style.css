@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   /* font-size: 10px; */
-  font-size: 62.5%;
+  font-size: 62.5%; /* Hier um 1rem = 10px machen */
 }
 body {
   background-color: lightgray;
@@ -9,7 +9,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
-  font-style: normal; */
+  font-style: normal; */ /* Google font */
   /* font-size: 10px; */
   font-size: 1.5rem;
   text-align: center;
@@ -23,10 +23,10 @@ ul {
   list-style: none;
 }
 .list li:nth-child(1) {
-  font-size: 2em; /*2 * 20*/
+  font-size: 2em; /*2 * 20  -> 20 wird vom parent element ul übernommen*/
 }
 .list li:nth-child(2) {
-  font-size: 2rem; /*2 * 16*/
+  font-size: 2rem; /*2 * 10 -> normaleweise 16px ist default value und rem übernimmt root font size value */
 }
 .auto-list li::after {
   content: " Sale";
@@ -35,15 +35,16 @@ ul {
   content: "😼 ";
 }
 a[target="_blank"]::before {
+  /* selektieren die anchor Tags mit attrebiute target und value blank */
   content: "🔗 ";
 }
 #shadow {
-  text-shadow: 5px -2px 10px red, -5px 2px 10px blue;
+  text-shadow: 5px -2px 10px red, -5px 2px 10px blue; /* erst value = horizental value, zweite value = verticale value, dritte = blur, vierte = Farbe das Shadow */
   text-decoration: overline dashed 6px rgb(30, 255, 0);
 }
 .last-section {
-  /* text-align: start; */
-  text-align: justify;
+  /* text-align: start;  */ /* Hier wird an start punkt recht oder links den Tet gestartet*/
+  text-align: justify; /* Hier wird funktioniern wenn das Width des element geschränkt ist*/
   border: 1px solid red;
   width: 20%;
 }
