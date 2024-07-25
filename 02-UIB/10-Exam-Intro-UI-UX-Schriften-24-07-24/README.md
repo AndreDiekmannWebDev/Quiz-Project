@@ -4,13 +4,13 @@
 
 1. `Test` .
 
-1. Was ist `UI/UX` ?
+2. Was ist `UI/UX` ?
 
-1. `Inline text` Semantiche Elemente.
+3. `Inline text` Semantiche Elemente.
 
-1. `Font Family`
+4. `Font Family`
 
-1. `Google Fonts`
+5. `Google Fonts`
 
 ## Resources :
 
