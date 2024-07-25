@@ -26,4 +26,4 @@
 
 - [uib-design-font-families](https://classroom.github.com/a/_F3f3bLW)
 
-- [uib-design-typography-text](https://classroom.github.com/a/cD4bcV1ggit)
+- [uib-design-typography-text](https://classroom.github.com/a/cD4bcV1g)
