@@ -18,4 +18,10 @@
 
 - [Text decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
 
-- []
+### Tasks :
+
+- [uib-design-bunny-fonts](https://classroom.github.com/a/qLWibpAI)
+
+- [uib-design-semantic-elements](https://classroom.github.com/a/ZsOqhdlR)
+
+- [uib-design-font-families](https://classroom.github.com/a/_F3f3bLW)
