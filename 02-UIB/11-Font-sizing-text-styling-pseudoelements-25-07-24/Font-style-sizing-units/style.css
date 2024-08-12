@@ -28,6 +28,9 @@ ul {
 .list li:nth-child(2) {
   font-size: 2rem; /*2 * 10 -> normaleweise 16px ist default value und rem übernimmt root font size value */
 }
+.auto-list li {
+  font-size: 30px;
+}
 .auto-list li::after {
   content: " Sale";
 }
