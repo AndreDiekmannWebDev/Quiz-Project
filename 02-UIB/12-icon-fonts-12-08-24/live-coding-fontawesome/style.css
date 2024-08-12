@@ -11,6 +11,8 @@
 body {
   font-size: 1.6rem;
   font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  background-color: beige;
 }
 header {
   height: 5vh;
@@ -47,8 +49,7 @@ a {
 
 main {
   text-align: center;
-  height: 60vh;
-  margin-top: 30%;
+  height: 90vh;
 }
 .one {
   display: block;
@@ -62,10 +63,27 @@ button:hover .one {
 }
 button:hover .two {
   display: block;
+  color: #e4405f;
+  cursor: pointer;
 }
 button {
   /* width: 100px; */
   /* height: 100px; */
   font-size: 150px;
   padding: 2rem;
+  margin-top: 20rem;
+}
+footer {
+  height: 5vh;
+  width: 100%;
+  color: rgb(199, 55, 32);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer span {
+  text-decoration: underline;
+  color: rgb(166, 58, 58);
 }
