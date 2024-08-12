@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ohne font size 62.5% ist 1 rem = 16px, da mit 1 rem = 10px */
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  height: 5vh;
+  /* border: 1px solid red; */
+}
+/* nav {
+  float: right;
+} */
+nav ul {
+  padding-top: 1rem;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+p {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+#youtube {
+  color: red;
+}
+#instagram {
+  color: #e4405f;
+}
+#facebook {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  height: 60vh;
+  margin-top: 30%;
+}
+.one {
+  display: block;
+}
+.two {
+  display: none;
+}
+button:hover .one {
+  /* color: #e4405f; */
+  display: none;
+}
+button:hover .two {
+  display: block;
+}
+button {
+  /* width: 100px; */
+  /* height: 100px; */
+  font-size: 150px;
+  padding: 2rem;
+}
