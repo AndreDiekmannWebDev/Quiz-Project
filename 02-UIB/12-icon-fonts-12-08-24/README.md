@@ -4,9 +4,17 @@
 
 1. Was ist `Icons` ?
 
+- ein visueller Indikator für Bedeutung ohne Text.
+
 2. Was ist `Schrift-Icons`?
 
+- Icons sind im Grunde Buchstaben, Buchstaben stammen aus Schriftarten, Schriftarten sind Vektoren.
+
 3. Was ist `CDN` ?
+
+- Ein `Content Delivery Network (CDN)` ist ein Netzwerk aus Servern, die geografisch auf der ganzen Welt verteilt sind. Das Hauptziel eines `CDNs` ist es, Inhalte wie Bilder, Videos, Websites oder Dateien schnell und zuverlässig an Nutzer zu liefern.
+
+- [Live-code-Fontawesome](./live-coding-fontawesome/index.html)
 
 ## Resources :
 
