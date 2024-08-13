@@ -1,0 +1,161 @@
+/* universal */
+:root {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  --color-hell-blue: #68e1fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header styling */
+.header {
+  padding: 2rem;
+  margin: 1.5rem;
+}
+.logo-text {
+  color: var(--color-hell-blue);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.logo {
+  display: inline-block;
+}
+.menu {
+  float: right;
+}
+.logo-icon {
+  width: 30px;
+}
+
+/* main styling */
+.hero {
+  margin: 40px;
+  padding: 20px;
+  display: inline-block;
+  height: 400px;
+}
+.hero-content {
+  display: inline-block;
+  width: 50%;
+  padding: 20px;
+  margin-top: 50px;
+}
+.hero-image {
+  float: right;
+}
+.hero-photo {
+  width: 500px;
+}
+.hero-heading {
+  font-size: 2rem;
+  width: 70%;
+  line-height: 1.5;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.hero-text {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+.hero-btn {
+  padding: 14px 24px;
+  border: none;
+  font-size: 1.7;
+  font-weight: 600;
+  background-color: var(--color-hell-blue);
+  margin-top: 30px;
+}
+.hero-btn:hover {
+  color: #68e1fd;
+  background-color: var(--header-color);
+}
+.services {
+  background-color: #68e1fd;
+  height: 1000px;
+}
+
+.description {
+  text-align: center;
+  margin: 0px 0px 100px 0;
+}
+
+.services-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--header-color);
+  margin: 40px 0 5px 0;
+  padding: 80px 0 20px 0;
+}
+
+.services-text {
+  font-size: 1.6rem;
+  color: var(--paragraph-color);
+  max-width: 33.3%;
+  margin: 0 auto;
+}
+
+.card-content {
+  display: inline-block;
+  width: 50%;
+}
+.card {
+  width: 70%;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.service-list {
+  margin: 0px 50px;
+  padding: 90px 0px 0px 70px;
+}
+
+.service-list-item {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 15px;
+}
+.service-list-item > svg {
+  vertical-align: middle;
+}
+.services-image {
+  float: right;
+  margin: 70px 50px 0px 0px;
+  padding: 0px 50px 0px 0px;
+}
+
+/* footer styling */
+
+footer {
+  background-color: #ffffff;
+  height: 100px;
+}
+.wrapper {
+  padding: 50px 30px;
+}
+.copyright {
+  font-size: 1.6rem;
+  color: var(--header-color);
+}
+
+.sm-icon-list {
+  float: right;
+}
+.sm-icon-list-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.sm-icon {
+  text-decoration: none;
+  color: var(--header-color);
+}
