@@ -3,8 +3,10 @@
 - Lernziele :
 
 1. Gestaltung mit `Farben`:
+
    - farbpaletten
    - farbtemperatur
+
 2. `box-shadow`
 
    - [Box-shadows](https://www.joshwcomeau.com/css/designing-shadows/)
