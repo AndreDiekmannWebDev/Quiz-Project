@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --color-primary: purple;
+  --color-secondary: pink;
+  --color-background: #9797b6;
+}
+body {
+  background-color: var(--color-background);
+  /* --color-background: #d3d3d8; */
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+ol {
+  /* padding: 50px; */
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+li > div {
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid;
+  margin: 2rem auto;
+}
+.outset-box {
+  /* box-shadow: Horizental Vertical blur */
+  box-shadow: 4px 6px 5px 3px var(--color-primary);
+}
+
+.inset-box {
+  box-shadow: inset -0.4rem 0.5rem 0.5rem 0.6rem var(--color-secondary);
+}
+.multi-box {
+  box-shadow: inset -3px -3px 5px 6px var(--color-primary),
+    inset 3px 3px 5px 6px var(--color-secondary);
+}
+/* odd oder 2n+1 , even oder 2n,  */
+/* 2*0, 2*1, 2*2, 2*3 */
+li:nth-of-type(2n) {
+  color: coral;
+}
