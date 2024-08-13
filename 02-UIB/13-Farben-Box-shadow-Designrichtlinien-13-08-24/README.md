@@ -12,8 +12,11 @@
 3. `CSS-Variablen`
 
 4. `Designrechtlinien` :
+
    - Konsistenz
    - Typografie
+
+5. Pseudo-class `nth-of-type`
 
 ## Resources :
 
@@ -23,6 +26,8 @@
 
 - [Verwendung einer Farbplette](https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter)
 
+- [pseudo-class nth-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
+
 ## Tasks :
 
 - [uib-design-nnp-homepage](https://classroom.github.com/a/brmv0cLn)
@@ -30,3 +35,7 @@
 - [uib-design-box-shadow](https://classroom.github.com/a/lSGAb_dt)
 
 - [uib-design-glassmorphism](https://classroom.github.com/a/HsZgdJ__)
+
+### Selbstlernen:
+
+- [backdrop filter blur](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
