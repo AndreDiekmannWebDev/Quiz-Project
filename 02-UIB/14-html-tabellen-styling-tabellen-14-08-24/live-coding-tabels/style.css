@@ -28,7 +28,10 @@ td {
   /* border-collapse: collapse; */
   margin: 0 auto;
 }
-
+caption {
+  /* hier wird caption positioniert */
+  caption-side: bottom;
+}
 /* adv table */
 
 .adv-table {
@@ -39,6 +42,7 @@ td {
   border-collapse: collapse;
   height: 400px;
 }
+/* selektieren ein Element mit rowspan attribute  */
 [rowspan],
 [colspan] {
   background-color: rgb(95, 138, 31);
@@ -49,6 +53,7 @@ td {
 .adv-table tbody tr:nth-child(2n + 1) {
   color: red;
 }
+/* test nth-child und nth-of-type */
 ul {
   margin: 50px;
 }
