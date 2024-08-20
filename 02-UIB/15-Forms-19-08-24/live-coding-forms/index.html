@@ -8,9 +8,10 @@
 </head>
 <body>
     <h1>Html Forms</h1>
-    <form action="" method="post">
+    <form action="">
         <input type="text">
         <input type="number">
+        <button type="submit">Send</button>
     </form>
     <form action="">
         <label for="fname">First Name:</label>
@@ -20,7 +21,7 @@
         <input type="text" placeholder="Mustermann">
         <br />
         <label for="Password">Password:</label>
-        <input type="password" minlength="8">
+        <input type="password" minlength="8" pattern="[A-Z]">
 
         <br />
         <label for="Password">Age:</label>
@@ -45,7 +46,7 @@
             </div>
             <div>
                 <label for="">man</label>
-                <input type="radio" value="man" name="gender" disabled>
+                <input type="radio" value="man" name="gender">
             </div>
             <div>
                 <label for="Message">Message</label>
