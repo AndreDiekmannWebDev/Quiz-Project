@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-color: rgb(166, 161, 161);
+}
+label {
+  display: block;
+  margin: 15px 0px 3px 0px;
+}
+fieldset {
+  width: 200px;
+  margin: auto;
+}
+label,
+input,
+textarea {
+  width: 100%;
+}
+input:focus {
+  background-color: rgb(219, 219, 231);
+  outline: 2px solid orange;
+  border: 1px solid green;
+}
+::placeholder {
+  color: rgb(177, 104, 245);
+  opacity: 0.5;
+}
+input[type="checkbox"] {
+  width: 1em;
+  height: 1em;
+  appearance: none; /*Initial Values gelösht*/
+  /* float: left; */
+  border-radius: 50%;
+  /* accent-color: red; */ /*Farbe für chekbox*/
+  /* height: 30px; */
+  background: black;
+  /* outline: 1px solid red; */
+  border: 1px solid red;
+}
+
+/* .terms input:checked {
+  background-color: green;
+} */
+#check-inp:checked {
+  background: green;
+}
