@@ -24,4 +24,6 @@
 
 ### Tasks :
 
-- []
+- [uib-data-transparent-login-form](https://classroom.github.com/a/RDy28JGJ)
+
+- [uib-data-outlining-form-fields](https://classroom.github.com/a/BZ3x7dIa)
