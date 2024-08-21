@@ -1,51 +1,130 @@
-/* :root {
-  font-size: 62.5%;
-} */
-
-* {
-  padding: 0;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* Navbar */
-
+/* Navbar Styles */
 .navbar {
-  background-color: rgb(77, 76, 76);
+  background-color: #333;
   color: white;
   padding: 1rem;
+  position: relative;
+  overflow: hidden;
 }
-.nav-links {
-  float: right;
-  list-style: none;
-  /* margin: 0; */
-  padding: 0;
-}
-.nav-links li {
-  display: inline-block;
-  margin-left: 1rem;
-}
+
 .logo {
   display: inline-block;
 }
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
 .nav-links a {
   color: white;
   text-decoration: none;
 }
 
-/* cards */
+/* Cards Container */
 .cards-container {
   margin: 2rem;
 }
+
 .card {
   width: 30%;
-  float: left;
   margin: 1%;
-  border: 1px solid;
+  float: left;
+  background-color: #f4f4f4;
   border-radius: 5px;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
+
 .card img {
   width: 100%;
   height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+/* Media Queries */
+
+/* Tablet breakpoint */
+@media (max-width: 992px) {
+  .cards-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .cards-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1% 0;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    clear: both;
+  }
+
+  .nav-links li {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: block;
+  }
+
+  .navbar {
+    padding-bottom: 3rem;
+  }
 }
