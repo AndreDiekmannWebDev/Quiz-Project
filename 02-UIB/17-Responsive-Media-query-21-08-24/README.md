@@ -26,6 +26,6 @@
 
 ### Tasks :
 
-- []()
+- [uib-layout-media-queries-simple](https://classroom.github.com/a/n2I8Ga0S)
 
-- []()
+- [uib-layout-media-queries-roses](https://classroom.github.com/a/0LybUucr)

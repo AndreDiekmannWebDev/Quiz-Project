@@ -1,0 +1,51 @@
+/* :root {
+  font-size: 62.5%;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(77, 76, 76);
+  color: white;
+  padding: 1rem;
+}
+.nav-links {
+  float: right;
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
+}
+.nav-links li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.logo {
+  display: inline-block;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* cards */
+.cards-container {
+  margin: 2rem;
+}
+.card {
+  width: 30%;
+  float: left;
+  margin: 1%;
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}

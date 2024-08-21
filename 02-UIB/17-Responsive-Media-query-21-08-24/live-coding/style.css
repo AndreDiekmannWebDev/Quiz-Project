@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(250, 249, 249);
+}
+
+/* And operator */
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  body {
+    background-color: rgb(152, 152, 156);
+  }
+}
+
+/* Or operator */
+
+@media (width: 400px), (width: 600px) {
+  p {
+    color: orange;
+  }
+}
+
+/* Orientations: portrait, landscape */
+
+@media (orientation: portrait) {
+  div {
+    color: yellowgreen;
+  }
+}
+
+/* print */
+
+@media print {
+  h1 {
+    display: none;
+  }
+}
