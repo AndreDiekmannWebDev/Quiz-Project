@@ -78,6 +78,7 @@ body {
 
 /* Tablet breakpoint */
 @media (max-width: 992px) {
+  /* Diese Technik ist eine gängige Methode, um Floats in CSS zu klären. Sie stellt sicher, dass das Containerelement sich erweitert, um seine gefloateten Kinder-Elemente zu enthalten. Dies ist entscheidend, um das beabsichtigte Layout beizubehalten und Überlaufprobleme zu vermeiden. */
   .cards-container:after {
     content: "";
     display: table;
