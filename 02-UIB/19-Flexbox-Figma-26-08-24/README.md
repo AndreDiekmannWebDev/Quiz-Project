@@ -1,4 +1,4 @@
-# Flexbox, Figma / Montag 25.08.24
+# Flexbox, Figma / Montag 26.08.24
 
 ## Lernziele :
 
@@ -20,6 +20,6 @@
 
 ### Tasks :
 
-- []()
+- [uib-layout-flexbox](https://classroom.github.com/a/edRK2V8Q)
 
-- []()
+- [uib-layout-magazine-landing-page](https://classroom.github.com/a/QDjqDd5G)
