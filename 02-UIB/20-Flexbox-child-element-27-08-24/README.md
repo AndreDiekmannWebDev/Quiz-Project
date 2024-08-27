@@ -2,11 +2,11 @@
 
 ## Lernziele :
 
-1. Flexbox Widerholung
+1. Flexbox `Widerholung`
 
-2. Flexbox child element
+2. Flexbox `child` element
 
-3. Flexbox mit Medie Query
+3. `Flexbox` mit `Medie Query`
 
 ### Resources :
 
@@ -16,6 +16,6 @@
 
 ### Tasks :
 
-- []()
+- [uib-layout-flexible-movie-genres](https://classroom.github.com/a/mecfkWpA)
 
-- []()
+- [uib-layout-7-box-layout](https://classroom.github.com/a/TvuntT3L)
