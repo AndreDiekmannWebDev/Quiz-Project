@@ -8,9 +8,9 @@
 
 3. Grid auf Elternelementen (`grid-template, grid-auto-rows und columns`)
 
-4. `fr` Einheit ?
+4. `fr` Einheit, `minmax([min],[max])`?
 
-5. `gap`, `minmax([min],[max])` ?
+5. `gap` ?
 
 ### Resources :
 

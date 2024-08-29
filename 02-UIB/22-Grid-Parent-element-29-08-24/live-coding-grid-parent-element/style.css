@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  border: 1px solid;
+  height: 500px;
+  margin: 10px;
+  /* display: flex; */
+  display: grid;
+  /* display: inline-grid; */
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  /* grid-template-columns: auto auto 100px auto; */
+  /* grid-template-columns: 100px repeat(2, auto) 100px; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-rows: 100px 200px 100px; */
+  /* grid-template-rows: repeat(3, 1fr); */
+  /* shorthand */
+  /* grid-template: 10px; */
+  /* grid-template-columns: minmax(200px, 300px); */
+  /* grid-template-rows: 50px 50px; */
+  grid-template: repeat(2, 100px) / repeat(3, minmax(100px, 100px));
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  /* gap: 10px 30px; */
+  gap: 10px;
+  /* justify-content: center;
+  align-content: center; */
+  place-content: center;
+  /* justify-items: center;
+  align-items: center; */
+  place-items: center;
+}
+.container div {
+  border: 1px solid purple;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  /* width: 50px; */
+}
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightcoral;
+}
+
+.box3 {
+  background-color: lightgreen;
+}
+
+.box4 {
+  background-color: lightsalmon;
+}
+
+.box5 {
+  background-color: lightyellow;
+}
+
+.box6 {
+  background-color: lightseagreen;
+}
