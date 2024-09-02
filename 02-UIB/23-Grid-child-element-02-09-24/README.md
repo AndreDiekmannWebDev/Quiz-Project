@@ -22,6 +22,6 @@
 
 ### Tasks :
 
-- []()
+- [UIB-layout-grid](https://classroom.github.com/a/uEFHj-rR)
 
-- []()
+- [UIB-layout-grid-blogger](https://classroom.github.com/a/bTfe7v9Z)
