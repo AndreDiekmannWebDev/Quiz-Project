@@ -19,6 +19,7 @@ h1 {
   background-color: rgb(245, 165, 165);
   gap: 1em;
   /* grid-template-columns: repeat(3, 1fr); */
+  /* Vertikale linien konnte bennen werden */
   grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [fourth];
   /* grid-auto-rows: 100px; */
 }
@@ -30,13 +31,15 @@ h1 {
   /* grid-column-start: 2;
   grid-column-end: 4; */
   /* shorthand */
-  /* grid-column: 2 / 4;
-  grid-column: 2 / span 2; */
+  grid-column: 2 / 4;
+
+  /* Hiert ist span 2 / span = 2 / 4 */
+  grid-column: 2 / span 2;
   /* grid-row-start: 1;
   grid-row-end: 2; */
   /* shorthand */
-  /* grid-row: 1 / 2;
-  grid-row: 1 / span 2; */
+  grid-row: 1 / 2;
+  grid-row: 1 / span 2;
 }
 .item:nth-child(1) {
   /* grid-row: 2 / 3; */
@@ -54,6 +57,8 @@ h1 {
 .item:nth-child(7) {
   /* grid-row: 1 / span 3;
   grid-column: 1 / span 2; */
+
+  /* shorthand row-start / column-start / row-end / column-end */
   grid-area: 1 / 1 / 4 / 3;
   grid-area: 1 / 1 / span 3 / span 2;
 }
@@ -65,6 +70,7 @@ h1 {
   padding: 10px;
   gap: 1em;
   grid-template-columns: 150px repeat(2, 1fr);
+  /* . bedeutet leer, die namen werden die Elemente durch grid-area bekommen */
   grid-template-areas:
     "logo header header"
     "aside main main"
@@ -76,6 +82,7 @@ h1 {
   background-color: lightgray;
 }
 .logo {
+  /* element Name geben */
   grid-area: logo;
 }
 aside {
@@ -90,7 +97,7 @@ header {
 footer {
   grid-area: footer;
 }
-
+/* Wiederholen */
 .container-test {
   margin-top: 100px;
   padding: 1em;
