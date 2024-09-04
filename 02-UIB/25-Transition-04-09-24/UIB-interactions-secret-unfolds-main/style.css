@@ -1,0 +1,78 @@
+body {
+  display: grid;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+  height: 100vh;
+}
+main {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 3rem;
+  /* background-color: lightblue; */
+}
+.box {
+  /* border: 1px solid blue; */
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  transition: 1s;
+}
+
+.left-top {
+  top: 0;
+  left: 0;
+  background-color: lightcoral;
+}
+.right-top {
+  top: 0;
+  right: 0;
+  background-color: lightgreen;
+}
+.left-bottom {
+  bottom: 0;
+  left: 0;
+  background-color: lightpink;
+}
+
+.right-bottom {
+  bottom: 0;
+  right: 0;
+  background-color: lightgray;
+}
+/* main:hover .left-top {
+  transform: translateX(-200px) rotate(90deg);
+}
+main:hover .right-top {
+  transform: translateX(200px) rotate(-90deg);
+}
+main:hover .left-bottom {
+  transform: translateX(-200px) rotate(-90deg);
+}
+main:hover .right-bottom {
+  transform: translateX(200px) rotate(90deg);
+} */
+
+main:hover {
+  .left-top {
+    transform: translateX(-200px) rotate(90deg);
+  }
+  .right-top {
+    transform: translateX(200px) rotate(-90deg);
+  }
+  .left-bottom {
+    transform: translateX(-200px) rotate(-90deg);
+  }
+  .right-bottom {
+    transform: translateX(200px) rotate(90deg);
+  }
+}
