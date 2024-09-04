@@ -1,0 +1,59 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+  text-align: center;
+}
+.box-container {
+  border: 1px solid;
+}
+/* .box-container:hover .box {
+  margin-left: 400px;
+  transition-timing-function: ease-in;
+} */
+.box {
+  width: 10vw;
+  height: 100px;
+  border-radius: 8px;
+  background-color: aqua;
+  border: 1px solid;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transition-property: width, height, background-color, border-radius; */
+  /* transition-property: all;
+
+  transition-duration: 1s; */
+  transition: all 1s ease 1s;
+}
+.box:nth-child(1):hover {
+  /* width: 200px; */
+  transition-timing-function: linear;
+  /* margin-left: 400px; */
+  /* transform: scale(2, 1) translateX(150px); */
+  rotate: 360deg;
+}
+.box:nth-child(2):hover {
+  /* width: 200px;
+  height: 200px; */
+  margin-left: 400px;
+  transition-timing-function: ease;
+}
+.box:nth-child(3):hover {
+  /* transition-delay: 1s;
+  background-color: red; */
+  margin-left: 400px;
+  transition-timing-function: ease-in;
+}
+.box:nth-child(4):hover {
+  /* border-radius: 50%; */
+  /* width: 200px;
+  height: 200px; */
+  margin-left: 400px;
+  transition-timing-function: ease-out;
+}
+.box:nth-child(5):hover {
+  margin-left: 400px;
+  transition-timing-function: ease-in-out;
+}

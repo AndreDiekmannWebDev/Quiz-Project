@@ -1,4 +1,4 @@
-# Animation mit Transition / Mitwoch 04.09.24
+# Animation mit Transition / Mittwoch 04.09.24
 
 ## Lernziele :
 
@@ -20,6 +20,6 @@
 
 #### Tasks :
 
-- []()
+- [UIB-interactions-secret-unfolds](https://classroom.github.com/a/k4un4zgT)
 
-- []()
+- [UIB-Interactions-Caption-This](https://classroom.github.com/a/rt8CH_yh)

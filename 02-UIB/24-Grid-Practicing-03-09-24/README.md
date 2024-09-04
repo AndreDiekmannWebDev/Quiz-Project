@@ -9,7 +9,3 @@
 3. `Wiederholung` Grid.
 
 ## Tasks :
-
-- []()
-
-- []()
