@@ -27,5 +27,3 @@
 ### Tasks :
 
 - [UIB_framework_sass_random_bars](https://classroom.github.com/a/STp9ev61)
-
-- []()
