@@ -1,0 +1,38 @@
+h1 {
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  border: 1px solid;
+  background-color: pink;
+}
+
+.list, .list-2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+}
+.list li, .list-2 li {
+  border: 1px solid;
+}
+.list li:hover, .list-2 li:hover {
+  background-color: purple;
+}
+
+.cards {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */

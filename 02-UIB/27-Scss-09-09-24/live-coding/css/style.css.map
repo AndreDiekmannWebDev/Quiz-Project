@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss","../sass/_vaiables.scss"],"names":[],"mappings":"AACA;EACE,kBCFS;EDGT,OCFW;EDGX;;;AAEF;EACE,kBCLW;;;ADOb;EACE,QCNe;EDOf;;;AAUF;EACE;EAPA,SAUsB;EATtB,iBAS4B;EAR5B,aAQ0C;EAP1C,kBAOkD;;AAClD;EACE,QCvBa;;ADwBb;EACE,kBC7BK;;;ADiCX;EACE;EAnBA,SAqBsB;EApBtB,iBAoB4B;EAnB5B,aAmB2C;EAlB3C,kBAkBmD","file":"style.css"}

@@ -1,0 +1,41 @@
+@import "vaiables";
+h1 {
+  background-color: $bg-color;
+  color: $font-color;
+  text-align: center;
+}
+body {
+  background-color: $main-color;
+}
+.container {
+  border: $border-default;
+  background-color: map-get($color, main);
+}
+
+@mixin display-flex($display, $justify, $align, $bg-color) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+  background-color: $bg-color;
+}
+
+.list {
+  list-style-type: none;
+  // display: flex;
+  // justify-content: space-around;
+  @include display-flex(flex, space-around, center, gray);
+  li {
+    border: $border-default;
+    &:hover {
+      background-color: $bg-color;
+    }
+  }
+}
+.cards {
+  height: 100px;
+
+  @include display-flex(flex, space-between, center, rgb(0, 255, 255));
+}
+.list-2 {
+  @extend .list;
+}
