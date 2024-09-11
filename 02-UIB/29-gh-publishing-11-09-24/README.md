@@ -4,7 +4,9 @@
 
 1. Veröffentlichen unserer Webseite mit `Github Pages`
 
-2. Kann man durch `Gitgub` machen oder `command line` mit hilfe vom `gh-pages` Package
+2. Kann man durch `Github` machen oder `command line` mit hilfe vom `gh-pages` Package
+
+3. was ist `Package.json`
 
 ## Resources :
 
