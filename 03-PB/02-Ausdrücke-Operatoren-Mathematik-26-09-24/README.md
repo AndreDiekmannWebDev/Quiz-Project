@@ -6,7 +6,7 @@
 
 2. Was sind `Single quotes`, `Double quotes` und `Backticks` ?
 
-3. Operatoren: `+`, `-`, `*`, `/`, `%`, `**` ...etc?
+3. Operatoren: `+`, `-`, `*`, `/`, `%`, `**` ...usw?
 
 4. Mathematik Bibloithek: `Math.ceil()`, `Math.floor()`, `Math.random()` ?
 
