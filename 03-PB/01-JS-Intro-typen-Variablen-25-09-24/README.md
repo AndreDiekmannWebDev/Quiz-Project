@@ -1,4 +1,4 @@
-# Javascript Intro, Typen, Variablen / Mitwoch 25.09.24
+# Javascript Intro, Typen, Variablen / Mittwoch 25.09.24
 
 ## Lernziele :
 
