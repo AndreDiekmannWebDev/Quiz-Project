@@ -24,6 +24,8 @@
 
 - [JS Variablen](https://www.w3schools.com/js/js_variables.asp)
 
+- [JS Versions](https://www.w3schools.com/js/js_versions.asp)
+
 ### Tasks :
 
 - [PB-language-naming-conventions](https://classroom.github.com/a/glEs-b8y)
