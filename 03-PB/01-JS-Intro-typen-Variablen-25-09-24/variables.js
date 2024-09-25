@@ -18,8 +18,10 @@ console.log(age);
 
 // console.log(num1); // error
 let num1 = 34;
+// let num1 = 30;
 console.log(num2); // undefined
 var num2 = 50;
+// var num2 = 40;
 
 let fullName; // undefined
 // const fullName; // Error

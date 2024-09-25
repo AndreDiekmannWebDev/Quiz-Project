@@ -38,6 +38,16 @@
 
 6. JS `Typen`, `Variablen` ?
 
+### Zusammenfassung :
+
+- JavaScript (JS) ist eine high-level interpretierte Sprache
+- Node wird verwendet, um JS-Dateien auszuführen
+- `const` und `let` sind für variablen deklärien benötigt.
+- Fehlermeldungen sind unser Freund
+- JS primitive Typen: Number, String, Boolean, Undefined, Null
+- Ein Null-Wert bedeutet explizit leer
+- Ein Undefined-Wert bedeutet normalerweise, dass die Variable deklariert, aber nicht zugewiesen wurde
+
 ### Resources :
 
 - [Compiled and Interpreted Languages](https://www.youtube.com/watch?v=I1f45REi3k4&t=3s)
