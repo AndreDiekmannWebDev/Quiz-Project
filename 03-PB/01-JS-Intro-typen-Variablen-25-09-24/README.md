@@ -4,13 +4,37 @@
 
 1. Was ist `Programmiersprache` ?
 
+- Programmiersprachen haben die Fähigkeit, Berechnungen und Logik durchzuführen
+
 2. `Interpretierte Sprachen` vs `Kompilierte Sprachen` ?
+
+- Kompilierte Sprachen : C++, Rust - Umwandlung von einem Format in ein anderes - Traditionell ändert das Kompilieren den Quellcode in Binär
+
+- Interpretierte Sprachen : Javascript, Paython
+  - Du führst die Quellcode-Datei direkt aus
+  - Dein Computer liest sie Zeile für Zeile und interpretiert sie
 
 3. `Low-Level` vs `High-Level-Sprachen` ?
 
+- Low-Level-Sprachen sind näher an der Maschinensprache - Näher an der physischen Sprache des Computers
+
+         - High-Level-Sprachen sind näher an der menschlichen Sprache `Javascript`
+        - Sie haben eine starke Abstraktion von den Details des Computers `Assemply`
+
 4. `Javascript` ?
 
+   - Ursprünglich speziell entwickelt, um Websites dynamisch zu machen
+   - JavaScript ist allgemeiner Zweck
+   - Es dominiert immer noch den Browser
+
+   _ECMAScript_ : ist eine standardisierte Spezifikation für Skriptsprachen
+
+   - Es definiert die Syntax, Semantik und Kernfunktionen einer Sprache
+
 5. `NodeJs` ?
+
+- Node ist eine Open-Source, plattformübergreifende JavaScript-Laufzeitumgebung
+- Das Node-Programm führt (interpretiert!) dein JavaScript aus
 
 6. JS `Typen`, `Variablen` ?
 
