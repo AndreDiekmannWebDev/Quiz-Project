@@ -1,7 +1,7 @@
 // Data types
 
 // 1. String
-
+// anführungszeichen ist für string
 console.log("This is a string!");
 console.log(typeof "this is a string");
 
@@ -10,7 +10,7 @@ console.log(typeof "this is a string");
 console.log(1);
 console.log(1.25);
 
-// 3. Boolean => true, false
+// 3. Boolean => nur true oder false
 
 console.log(true);
 console.log(typeof false);
@@ -21,7 +21,7 @@ console.log(typeof null);
 
 // 5. undefined
 
-console.log(undefined); // ein Variable nicht zugewiese wurde.
+console.log(undefined); // ein Variable nicht zugewiesen wurde.
 
 console.log("first", "second", 1, true, null);
 

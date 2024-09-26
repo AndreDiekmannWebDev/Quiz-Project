@@ -16,16 +16,16 @@ console.log(age);
 
 // var : scope, hoisting
 
-// console.log(num1); // error
+// console.log(num1); // error weil es wurde danach defeniert
 let num1 = 34;
 // let num1 = 30;
-console.log(num2); // undefined
+console.log(num2); // undefined aber kein Error weil var wurde benutzt
 var num2 = 50;
-// var num2 = 40;
+// var num2 = 40; // Kein Error
 
 let fullName; // undefined
-// const fullName; // Error
-// let fullName ; Error
+// const fullName; // Error weil schon deklarieret
+// let fullName ; Error weil schon deklarieret
 // fullName = "John Doe";
 console.log(fullName); //
 

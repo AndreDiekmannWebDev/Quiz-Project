@@ -22,6 +22,6 @@
 
 ### Tasks :
 
-- [PB-language-operators-basic]()
+- [PB-language-operators-basic](https://classroom.github.com/a/H3i7lN52)
 
-- [PB-language-operators]()
+- [PB-language-operators](https://classroom.github.com/a/XGEFb3F0)
