@@ -28,4 +28,4 @@
 
 - [PB-language-string-methods](https://classroom.github.com/a/hyVclVUF)
 
-- [PB-language-adventure-game-character-1]()
+- [PB-language-adventure-game-character-1](https://classroom.github.com/a/rV0c_h3a)
