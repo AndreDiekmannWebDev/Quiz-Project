@@ -22,9 +22,9 @@
 
 ### Tasks :
 
-- [PB-language-strings-basic]()
+- [PB-language-strings-basic](https://classroom.github.com/a/JIQyd1y2)
 
-- [PB-language-strings]()
+- [PB-language-strings](https://classroom.github.com/a/nihdGcQv)
 
 - [PB-language-string-methods]()
 

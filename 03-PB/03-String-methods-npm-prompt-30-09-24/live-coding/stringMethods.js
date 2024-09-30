@@ -38,6 +38,7 @@ const capitalizingFirstTwoLetter =
   firstName[0].toUpperCase() + firstName[1].toUpperCase() + firstName.slice(2);
 const capitalizingWithSlice =
   firstName.slice(0, 2).toUpperCase() + firstName.slice(2);
+//  "so".toUpperCase() + "phie" = SOphie
 console.log(capitalizingFirstTwoLetter); // SOphie
 console.log(capitalizingWithSlice); // SOphie
 
