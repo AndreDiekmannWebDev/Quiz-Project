@@ -26,6 +26,6 @@
 
 - [PB-language-strings](https://classroom.github.com/a/nihdGcQv)
 
-- [PB-language-string-methods]()
+- [PB-language-string-methods](https://classroom.github.com/a/hyVclVUF)
 
 - [PB-language-adventure-game-character-1]()
