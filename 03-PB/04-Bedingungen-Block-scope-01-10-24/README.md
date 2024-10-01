@@ -22,6 +22,6 @@
 
 ### Tasks :
 
-- [PB-language-conditional-statements-basic]()
+- [PB-language-conditional-statements-basic](https://classroom.github.com/a/36xGUAxI)
 
-- [PB-language-conditional-statements]()
+- [PB-language-conditional-statements](https://classroom.github.com/a/etDBILqb)
