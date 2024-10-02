@@ -15,18 +15,16 @@ if (gluecksZahl > 3) {
   const scopeTest = "ConstScopeTest";
   let scopeTest2 = "letScopeTest";
   var scopeTest3 = "varScopeTest";
-  console.log(scopeTest);
+  console.log(scopeTest); // ConstScopeTest
 
   if (gluecksZahl > 5) {
     console.log(scopeTest);
     const numTest = 5;
-    console.log(numTest);
+    console.log(numTest); // 5
   }
-  //   console.log(numTest);
+  //   console.log(numTest); fehler
 }
 
-// console.log(scopeTest);
-
-// fehler;
+// console.log(scopeTest); fehler;
 // console.log(scopeTest2); fehler
-console.log("outside:", scopeTest3); // var ist dumm
+console.log("outside:", scopeTest3); // var ist dumm kein fehler

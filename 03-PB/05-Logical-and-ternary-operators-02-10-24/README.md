@@ -4,7 +4,7 @@
 
 1. Logische Operatoren (and : `&&` , OR :`||`, NOT : `!`)
 
-2. Ternäre Operator Syntax : `etwas ? etwas : etwas`
+2. Ternäre Operator Syntax : `Condition ? code : code`
 
 3. `Github Copilot`
 
