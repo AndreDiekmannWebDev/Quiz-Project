@@ -16,8 +16,8 @@
 
 ### Tasks :
 
-- [PB-program-bookstore]()
+- [PB-program-bookstore](https://classroom.github.com/a/7C1PJd7W)
 
-- [PB-program-ternary-operator]()
+- [PB-program-ternary-operator](https://classroom.github.com/a/8zLZyD4d)
 
 - [PB-program-ternary-operator-and-logic-basic]()
