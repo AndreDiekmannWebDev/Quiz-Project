@@ -20,4 +20,4 @@
 
 - [PB-program-ternary-operator](https://classroom.github.com/a/8zLZyD4d)
 
-- [PB-program-ternary-operator-and-logic-basic]()
+- [PB-program-ternary-operator-and-logic-basic](https://classroom.github.com/a/lQXj0YSf)

@@ -94,4 +94,4 @@ zahl < 100 && zahl > 10
   ? (zahl -= 100)
   : console.log(zahl);
 
-console.log(zahl); // 20
+console.log(zahl); // 10
