@@ -32,8 +32,8 @@
 
 #### Exercises :
 
-- [PB-language-strings-and-numbers]()
+- [PB-language-strings-and-numbers](https://classroom.github.com/a/Z8yNMclh)
 
-- [PB-language-nan-interactive]()
+- [PB-language-nan-interactive](https://classroom.github.com/a/fMkvYDnl)
 
 - [PB-program-readline-sync]()
