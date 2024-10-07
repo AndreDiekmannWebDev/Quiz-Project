@@ -4,11 +4,17 @@
 
 1. Was sind die `falsche Werte` ?
 
+   - `false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN`
+
 2. `Wahrheitsgemäße` werte sind : ... ?
+
+   - Werte, die eigentlich nicht `true` sind, aber als true zählen, sind **wahrheitsgemäß**
 
 3. Einheitenkonvertierung mit `String(), Number(), Boolean(), parsInt() ...USW`
 
 4. Was ist `NaN` ?
+
+   - Not a Number
 
 5. Zuweisung von Ausweichwert mit `||`.
 
