@@ -88,5 +88,5 @@ if (null == null) {
 
 console.log("\n\n");
 
-const name = readlineSync.question("Your name please ?") || "Guest";
+const name = readlineSync.question("Your name please ?") || "Guest"; // default Wert wenn erste Wert false ist
 console.log(`Welcome ${name}`);
