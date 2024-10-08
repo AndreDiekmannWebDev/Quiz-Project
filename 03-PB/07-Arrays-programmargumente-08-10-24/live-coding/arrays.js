@@ -3,6 +3,7 @@ let string = "Hallo!";
 // string[0]
 // Index
 
+// arrays sind veränderbar (mutable)
 const tiere = ["schlange", "Ziege", "Affe"];
 const zahlen = [1, 4, 7, 4, 6, 90];
 const produktInfo = [
