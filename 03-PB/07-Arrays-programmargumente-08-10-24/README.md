@@ -24,6 +24,6 @@
 
 - [PB-language-array-basic](https://classroom.github.com/a/vXKIjSyn)
 
-- [PB-language-array-challenges](https://classroom.github.com/a/vXKIjSyn)
+- [PB-language-array-challenges](https://classroom.github.com/a/o6QQ5kcn)
 
 - [PB-language-input-arguments]()
