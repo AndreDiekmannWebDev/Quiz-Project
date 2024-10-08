@@ -6,7 +6,7 @@
 
 2. Array methoden `(shift(), push(), includes(), reverse())`
 
-3. Konvertieren Array to string mit `toString()`
+3. Konvertieren Array zu string mit `toString()`
 
 4. Werte durch Terminal bekommen mit `(process.argv)`
 
