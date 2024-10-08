@@ -22,8 +22,8 @@
 
 ### Exercises :
 
-- [PB-language-array-basic]()
+- [PB-language-array-basic](https://classroom.github.com/a/vXKIjSyn)
 
-- [PB-language-array-challenges]()
+- [PB-language-array-challenges](https://classroom.github.com/a/vXKIjSyn)
 
 - [PB-language-input-arguments]()
