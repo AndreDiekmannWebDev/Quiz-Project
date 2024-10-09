@@ -14,8 +14,8 @@
 
 ### Exersices :
 
-- [PB-program-loops-basic]()
+- [PB-program-loops-basic](https://classroom.github.com/a/BQMv_ZT1)
 
-- [PB-program-loop-with-input]()
+- [PB-program-loop-with-input](https://classroom.github.com/a/_OtQpV1T)
 
-- [PB-program-accumulator-pattern]()
+- [PB-program-accumulator-pattern](https://classroom.github.com/a/exd9swtr)
