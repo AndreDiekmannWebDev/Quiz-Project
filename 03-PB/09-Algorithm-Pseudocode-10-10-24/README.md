@@ -12,4 +12,16 @@
 
 ### Resources :
 
-- []()
+- [Pseudocode](https://www.geeksforgeeks.org/what-is-pseudocode-a-complete-tutorial/)
+
+- [break in for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
+
+- [continue in for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+
+### Exercises :
+
+- [PB-program-accumulator-pattern-basic]()
+
+- [PB-program-loop-with-iterables]()
+
+- [PB-program-loop-array-with-input]()
