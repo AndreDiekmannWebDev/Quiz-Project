@@ -4,7 +4,19 @@
 
 1. Was sind `Algorithmen`?
 
+- Ein Algorithmus ist das abstrakte Konzept oder die Idee hinter der Lösung eines Problems
+- Werkzeuge : Variablen - for-schleifen - Bedienungen ...USW
+<!-- STRINGS GRUSSBUCHSTABEN => STRINGS KLEINBUCHTABEN -->
+
+- Was sind die Eingaben ? <!-- tests = ["Afjdndkj", "Fnvkdjvdfvj"] -->
+- Was sind die gewünschten Ausgaben ? <!-- tests = ["afjdndkj", "fnvkdjvdfvj"] -->
+- Welche Schritte muss ich tun, um Endresult zu bekommen.
+
 2. Was ist `Pseudocode`?
+
+- Eine Sache, die bei der Problemlösung helfen kann, ist das Schreiben von Pseudocode
+- Etwas, das zwischen menschlicher Sprache und tatsächlichem Code liegt
+- Pseudocode ist eine vereinfachte, informelle Syntax
 
 3. Schleifen und `Iterables`.
 
