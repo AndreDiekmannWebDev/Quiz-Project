@@ -43,3 +43,18 @@ for (let i = 0; i < numbers.length; i++) {
     break; // stop the loop completely
   }
 }
+
+// --------------------------------------
+// Problem: Betrachte ein Array von Zahlen und gib die Differenz
+// zwischen der aktuellen Zahl und der vorherigen aus.
+// Wenn eine Zahl null ist, gib weder für diese Zahl noch für die
+// nächste Zahl etwas aus.
+// Dies könnte in der Datenvisualisierung nützlich sein.
+
+const scores = [2, 5, 0, 4, 5, 0, 7, 8, 7, 7, 6, 9];
+
+/*
+Pseudocode
+
+
+*/
