@@ -32,8 +32,8 @@
 
 ### Exercises :
 
-- [PB-program-accumulator-pattern-basic]()
+- [PB-program-accumulator-pattern-basic](https://classroom.github.com/a/g6-El2qP)
 
-- [PB-program-loop-with-iterables]()
+- [PB-program-loop-with-iterables](https://classroom.github.com/a/FVUdnOvs)
 
-- [PB-program-loop-array-with-input]()
+- [PB-program-loop-array-with-input](https://classroom.github.com/a/fOvuL2o8)

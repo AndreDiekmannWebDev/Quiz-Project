@@ -37,12 +37,12 @@ Beende die Shleife
 }
 }
 */
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 5 === 0) {
-    console.log(numbers[i]);
-    break; // stop the loop completely
-  }
-}
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 5 === 0) {
+//     console.log(numbers[i]);
+//     break; // stop the loop completely
+//   }
+// }
 
 // --------------------------------------
 // Problem: Betrachte ein Array von Zahlen und gib die Differenz
@@ -56,5 +56,49 @@ const scores = [2, 5, 0, 4, 5, 0, 7, 8, 7, 7, 6, 9];
 /*
 Pseudocode
 
+for(jede Zahl im Array "scores"){
+  ob(die Zahl null ist){
+         Ignoriere diese Zahl
+    } 
+  ob(die vorherige Zahl null ist){
+         Ignoriere diese Zahl
+  }
+  gib die Differenz zwischen der Aktuellen Zahl und der vorherigen aus
+}
 
 */
+
+// for (let i = 1; i < scores.length; i++) {
+//   if (scores[i] === 0 || scores[i - 1] === 0) {
+//     continue;
+//   }
+//   console.log(scores[i] - scores[i - 1]);
+// }
+// ----------------------------
+
+// break
+
+const text = "hello";
+
+for (let i = 0; i < text.length; i++) {
+  console.log(text[i]);
+  if (text[i] === "l") {
+    break;
+  }
+}
+
+const nums = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < nums.length; i++) {
+  console.log(nums[i]);
+  if (nums[i] === 3) {
+    break;
+  }
+}
+
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] === 3) {
+    continue;
+  }
+  console.log(nums[i]);
+}
