@@ -20,8 +20,8 @@
 
 ### Exercises :
 
-- [PB-program-while-loop]()
+- [PB-program-while-loop](https://classroom.github.com/a/cmf85fAa)
 
-- [PB-program-interactive-while-loop]()
+- [PB-program-interactive-while-loop](https://classroom.github.com/a/96j5liHz)
 
-- [PB-program-guess-the-number]()
+- [PB-program-guess-the-number](https://classroom.github.com/a/nlApZr4m)
