@@ -14,7 +14,9 @@
 
 - [Do while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 
-- [consle](https://developer.mozilla.org/en-US/docs/Web/API/console)
+- [console](https://developer.mozilla.org/en-US/docs/Web/API/console)
+
+- [for..of-loop]()
 
 ### Exercises :
 
