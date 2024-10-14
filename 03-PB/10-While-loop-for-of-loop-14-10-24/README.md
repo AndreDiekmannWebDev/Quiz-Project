@@ -16,7 +16,7 @@
 
 - [console](https://developer.mozilla.org/en-US/docs/Web/API/console)
 
-- [for..of-loop]()
+- [for..of-loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 
 ### Exercises :
 
