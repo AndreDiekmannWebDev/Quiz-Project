@@ -62,7 +62,7 @@ import rls from "readline-sync";
 
 // Frage den Benutzer nach 5 Wörtern und gib das Array in umgekehrter Reihenfolge mit einer for-Schleife aus.
 
-let words = [];
+// let words = [];
 // for (let i = 0; i < 5; i++) {
 //   words.push(rls.question("Gib ein Wort ein :"));
 // }
@@ -84,21 +84,56 @@ let words = [];
 
 // Erstelle ein verschachteltes Array mit mindestens 3 Zeilen und 3 Spalten und finde die kleinste Zahl mit einer verschachtelten for-schleife.
 
+// let nestedArray = [
+//   [3, 5, 7, -1000],
+//   [2, 8, 6],
+//   [1, 9, 4],
+//   [0, -100, -500],
+// ];
+// let min = nestedArray[0][0];
+// let sum = 0;
+// for (let i = 0; i < nestedArray.length; i++) {
+//   for (let j = 0; j < nestedArray[i].length; j++) {
+//     if (nestedArray[i][j] < min) {
+//       min = nestedArray[i][j];
+//     }
+//     sum += nestedArray[i][j];
+//   }
+// }
+// console.log(min);
+// console.log(sum);
+
+// Frage den Benutzer nach einem Wort und überprüfe, ob es sich um ein Palindrom handelt
+
+// Anna , Otto, John
+
+// let word = rls.question("Gib ein Wort ein : ").toLowerCase(); // john
+
+// let reversed = ""; // nhoj
+
+// for (let i = word.length - 1; i >= 0; i--) {
+//   reversed += word[i];
+// }
+// if (word === reversed) {
+//   console.log("Das Wort ist ein Palindrom.");
+// } else {
+//   console.log("Das Wort ist kein Palindrom.");
+// }
+
+// Erstelle ein quadratisches 2D-Array (gleich viele Zeilen und Spalten). Schreibe ein Programm, das die Summe der Diagonalelemente (oben links nach unten rechts) berechnet.
+
 let nestedArray = [
-  [3, 5, 7, -1000],
-  [2, 8, 6],
-  [1, 9, 4],
-  [0, -100, -500],
+  [5, 2, 3],
+  [4, 6, 1],
+  [7, 8, 9],
 ];
-let min = nestedArray[0][0];
-let sum = 0;
-for (let i = 0; i < nestedArray.length; i++) {
-  for (let j = 0; j < nestedArray[i].length; j++) {
-    if (nestedArray[i][j] < min) {
-      min = nestedArray[i][j];
-    }
-    sum += nestedArray[i][j];
-  }
-}
-console.log(min);
-console.log(sum);
+// console.log(nestedArray[0][0]); // 5
+
+// console.log(nestedArray[1][1]); // 6
+// console.log(nestedArray[2][2]); // 9
+
+// let sum = 0;
+// for (let i = 0; i < nestedArray.length; i++) {
+//   sum += nestedArray[i][i]; // 1. 0 + 5, 2. 5 + 6, 3. 11 + 9 = 20
+// }
+// console.log(sum);
