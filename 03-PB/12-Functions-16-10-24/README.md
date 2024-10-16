@@ -1,4 +1,4 @@
-# Functions / Dienstag 15.10.24
+# Functions / Mittwoch 15.10.24
 
 ## Lernziele :
 
@@ -19,6 +19,8 @@
 8. `Funktionen` hoisting ?
 
 ### Resources :
+
+- [Function-tutorial](https://www.youtube.com/watch?v=FOD408a0EzU)
 
 - [Funktion Intro](https://www.youtube.com/watch?v=FOD408a0EzU)
 
