@@ -2,7 +2,9 @@
 
 ## Lernziele :
 
-1. Was ist `Funktionsausdrücke` ?
+1. Was ist `Funktionsausdrücke` (function expressions) ?
+
+- Funktionsausdrücke sind eine alternative Möglichkeit, Funktionen zu erstellen
 
 2. `Arrow fuction` (Pfeil Funktion) ?
 
@@ -20,6 +22,6 @@
 
 ### Exercises :
 
-- []()
+- [PB-function-1-function-expressions](https://classroom.github.com/a/e0943BU9)
 
-- []()
+- [PB-function-1-function-challenges-2](https://classroom.github.com/a/q_yIpPGK)
