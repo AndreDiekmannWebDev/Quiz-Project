@@ -95,5 +95,8 @@ console.log(people[1].sayHi());
 //console.log(people[3]);
 
 for (let i = 0; i < people.length; i++) {
-  console.log(people[i].model);
+  console.log(people[i].colors);
 }
+const arr = [2, 3, 5, 7, 7];
+const obj = { name: "Ali" };
+console.log(Array.isArray(arr));
