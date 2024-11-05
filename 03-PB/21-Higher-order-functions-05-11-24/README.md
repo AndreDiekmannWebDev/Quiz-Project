@@ -10,7 +10,7 @@
 
 - [Higher Order Funtions](https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/)
 
-- [Map, Filter, foreach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [First class function](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
 
 ### Tasks :
 
