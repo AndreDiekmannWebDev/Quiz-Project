@@ -1,4 +1,4 @@
-# Fortgeschrittene Array-Methoden / Dienstag 05.11.24
+# Höhere Funktionen, Callbacks / Dienstag 05.11.24
 
 ## Lernziele :
 
