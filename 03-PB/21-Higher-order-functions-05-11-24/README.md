@@ -4,8 +4,6 @@
 
 1. Was sind die `Fortgeschrittene Methoden` ?
 
-2. `foreach, map, filter`
-
 ### Resources :
 
 - [Higher Order Funtions](https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/)
