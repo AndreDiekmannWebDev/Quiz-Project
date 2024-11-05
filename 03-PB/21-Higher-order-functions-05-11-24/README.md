@@ -4,22 +4,13 @@
 
 1. Was sind die `Fortgeschrittene Methoden` ?
 
-````js
-  // Variable wird ein Zahlenwert zugewiesen
-  const number = 57
-
-  // Variable wird ein Funktionswert zugewiesen
-  const greet = function(name) { return "Hello " + name }
-  ```
-
 - Eine höhere Funktion ist eine Funktion, die entweder:
   - eine Funktion zurückgibt
   - oder eine Funktion als Parameter aufnimmt
 
 2. `Callback` ?
 
-- Ein Callback ist eine Funktion, die als Argument an eine andere Funktion übergeben wird
-
+- Ein Callback ist eine Funktion, die als Argument an eine andere Funktion übergeben wird.
 
 ### Resources :
 
@@ -32,4 +23,3 @@
 - [PB-function-2-callback-basic](https://classroom.github.com/a/mCyL7txF)
 
 - [PB-function-2-callback](https://classroom.github.com/a/7NV46S0P)
-````
