@@ -36,3 +36,17 @@ function ageCheck(age) {
     : console.log(`You are not allowed`);
 }
 person("Randy", 28, ageCheck);
+
+console.clear();
+
+// function paramter1 : number, parameter2 : addFive function
+// check if number bigger than 10 dann wird adding 5 otherwise log the number without adding anything
+function sumFive(number, addFive) {
+  number > 10 ? addFive(number) : console.log(number);
+}
+function plusFive(n) {
+  console.log(n + 5);
+}
+
+sumFive(15, plusFive); // 20
+sumFive(5, plusFive); // 5
