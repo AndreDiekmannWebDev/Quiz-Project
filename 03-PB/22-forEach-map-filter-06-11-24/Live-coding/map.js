@@ -16,3 +16,20 @@ const bookshelf = [
   { title: "Pride and Prejudice", author: "Jane Austen", genre: "Fiction" },
   { title: "Faust", author: "Johann Wolfgang von Goethe", genre: "Drama" },
 ];
+
+// Map: Erstellt ein neues Array, indem es jedes Element des ursprünglichen Arrays durch die angegebene Funktion transformiert. map gibt ein neues Array zurück.
+
+const titlesArray = bookshelf.map((book) => book.title);
+console.log(titlesArray);
+
+const authors = bookshelf.map((book) => book.author);
+console.log(authors);
+
+const nums = [4, 6, 8, 10];
+
+const newNums = nums.map((x) => x / 2);
+console.log(newNums);
+
+nums.map((x, index) => {
+  console.log(index);
+});

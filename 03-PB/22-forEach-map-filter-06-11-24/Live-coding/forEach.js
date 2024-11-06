@@ -38,6 +38,7 @@ const titlesArray = [];
 bookshelf.forEach((book) => titlesArray.push(book.title));
 console.log(titlesArray);
 
+console.clear();
 const persons = [
   { name: "Peter", age: 16, country: "Germany" },
   { name: "Mark", age: 88, country: "UK" },
@@ -49,3 +50,10 @@ const persons = [
 
 // greet all persons and tell them if they are allowed to drive or not in deutschland.
 // example : Hallo Peter, welcome in deutschland. You are not allowed to drive a car in Deutschland.
+
+persons.forEach((person) => {
+  const greeting = `Hallo ${person.name}, Welcome in Deutschland. You are ${
+    person.age >= 18 ? "allowed" : "not allowed"
+  } to drive a car in Deutschland`;
+  console.log(greeting);
+});
