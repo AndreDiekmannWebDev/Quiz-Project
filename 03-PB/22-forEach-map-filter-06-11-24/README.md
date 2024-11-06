@@ -10,6 +10,6 @@
 
 ### Tasks :
 
-- []()
+- [PB-function-2-filter-general](https://classroom.github.com/a/kZP0pQSi)
 
-- []()
+- [PB-function-2-map-general](https://classroom.github.com/a/jF6Z-wMz)
