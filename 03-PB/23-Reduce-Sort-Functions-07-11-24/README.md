@@ -10,6 +10,8 @@
 
 - [Sort Method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
+- [locale Compare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+
 ### Tasks :
 
 - [PB-function-2-reduce]()
