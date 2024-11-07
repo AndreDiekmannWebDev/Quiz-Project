@@ -14,8 +14,8 @@
 
 ### Tasks :
 
-- [PB-function-2-reduce]()
+- [PB-function-2-reduce](https://classroom.github.com/a/DNc70ZaR)
 
-- [PB-function-2-reduce-products]()
+- [PB-function-2-reduce-products](https://classroom.github.com/a/dnQjSgeu)
 
-- [PB-function-2-sort-basic]()
+- [PB-function-2-sort-basic](https://classroom.github.com/a/3A-FOEG0)
