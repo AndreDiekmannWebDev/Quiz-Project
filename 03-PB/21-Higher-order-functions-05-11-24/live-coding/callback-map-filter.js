@@ -23,7 +23,7 @@ function getProductName(object) {
 const productNames = convertArray(shoppingBasket, getProductName);
 console.log(productNames);
 // const productNames1 = shoppingBasket.map((x) => x.product);
-// console.log(productNames1);
+// console.log(productNames1); ['oranges',"Apples","Bananas","Cat food"]
 
 // --------
 
